@@ -1,0 +1,656 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;
+    padding:0;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global classes */
+.bg-19435A{
+    background: #19435A;   
+}
+
+.text-E94D65{
+    color: #E94D65;
+}
+
+.bg-E94D65{
+    background: #E94D65;
+}
+
+.text-1B4962{
+    color: #1B4962;
+}
+
+.btn-E94D65{
+    background: #E94D65;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 25px;
+    transition: .7s all;
+
+}
+
+.btn-E94D65:hover{
+    border-radius: 40px;
+    color: #E94D65;
+    background: transparent;
+    border:2px solid #E94D65;
+    transition: .7s all;
+    font-weight: bolder;
+}
+
+.icon:hover{
+    cursor: pointer ;
+}
+.navbar .active{
+    color:  #E94D65;
+    font-weight: 700;
+    transition: .3s all;
+}
+
+.btn-1B4962{
+    background: #1B4962;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 25px;
+    transition: .7s all;
+}
+
+.btn-1B4962:hover{
+    border-radius: 40px;
+    color: #1B4962;
+    background: transparent;
+    border:2px solid #1B4962;
+    transition: .7s all;
+}
+
+.mob-only{
+    display: none !important;
+}
+
+.dk-only{
+    display: inline-block !important;
+}
+
+
+.dropdown-menu-big{
+    width: 800px; 
+    margin-left: -400px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+
+button:hover, a:hover{
+   cursor: pointer;
+}
+/* Global classes end here */
+
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffffb2;
+    backdrop-filter: blur(4px);
+    z-index: 99999999;
+    overflow: hidden;
+    transition: 0.5s all;
+  }
+
+  /* Sidenav */
+
+  
+.sidenav {
+    margin-top: 0vh;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Kanit", sans-serif;
+    z-index: 999;
+  }
+  .sidenav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    font-family: "Poppins";
+    border-top: 1px solid #0000003f;
+}
+  
+.sidenav .active {
+    color: #ffffff;
+    background: #E94D65;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 5vh;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color:  #E94D65;
+  }
+
+  /* Head */
+.head-band{
+    font-size: .8em;
+}
+
+.head-band img{
+    color: #E94D65;
+}
+
+.head-band .icon{
+     font-size: 1.3em;
+}
+
+.navbar{
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .2);
+    z-index: 9;
+}
+
+.navbar-fix{
+    top: 0;
+    background: #ffffffe3;
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.navbar .item:hover{
+    color:  #E94D65;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.carousel-div{
+    z-index: 5;
+}
+
+.carousel .data{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.carousel .data h1{
+    font-weight: 800;
+}
+
+.data hr{
+    border: 5px solid #e94d65;
+}
+.about-me{
+    min-height: 120vh;
+}
+.about-me .data{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+/* Our services */
+.our-services .card-s-parent{
+    margin-top: -10vh;
+    margin-bottom: 20vh;
+    z-index: 6;
+}
+.our-services .card-s{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, .2) ;
+    border-radius: 3px;
+}
+.our-services .card-s:hover{
+    box-shadow:5px 5px 10px #1b496280 ;
+}
+.our-services img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.our-services .data{
+    padding: 0 5% 5vh 5%;
+    margin-top: -70%;
+}
+.our-services .data h5{
+    font-size: .8em;
+}
+.our-services .data h4{
+    font-size: 2em;
+    font-weight: bold;
+}
+.our-services .data p{
+    font-size: .9em;
+
+}
+.our-services .data .btn{
+    padding: 10px 30px;
+    font-size: 1em;
+}
+
+/* Consultancy Services */
+.consultancy-services{
+    background: url('./../assets/backgroun-cs.png');
+    background-size: 100% auto ;
+    padding: 0vh 5% 10vh 5%;
+}
+.consultancy-services .data h5{
+    font-size: .9em;
+}
+.consultancy-services .cs-items p{
+    font-size: .9em;
+}
+
+/* Meet Your Coach */
+
+.meet-uc .progress-bar-circle{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    /* border:10px solid #E94D65 ; */
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left
+    
+}
+
+    /* Progress bar */
+    #progress-div,#progress-div2,#progress-div3{
+        display: none;
+    }
+
+    .progress{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        background: none;
+        margin: 0 auto;
+        box-shadow: none;
+        position: relative;
+    }
+    .progress:after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 12px solid #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .progress > span{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    .progress .progress-left{
+        left: 0;
+    }
+    .progress .progress-bar{
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-width: 12px;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+    }
+    .progress .progress-left .progress-bar{
+        left: 100%;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border-left: 0;
+        -webkit-transform-origin: center left;
+        transform-origin: center left;
+    }
+    .progress .progress-right{
+        right: 0;
+    }
+    .progress .progress-right .progress-bar{
+        left: -100%;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-right: 0;
+        -webkit-transform-origin: center right;
+        transform-origin: center right;
+        animation: loading-1 1.8s linear forwards;
+    }
+    .progress .progress-value{
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        border-radius: 50%;
+        background: black;
+    }
+    .progress.blue .progress-bar{
+        border-color: #E94D65;
+    }
+    .progress.blue .progress-left .progress-bar{
+        animation: loading-2 1.5s linear forwards 1.8s;
+    }
+    
+    @keyframes loading-1{
+        0%{
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100%{
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    }
+    @keyframes loading-2{
+        0%{
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100%{
+            -webkit-transform: rotate(144deg);
+            transform: rotate(144deg);
+        }
+    }
+   
+        @media only screen and (max-width: 990px){
+            .progress{ margin-bottom: 20px; }
+        }   
+
+    /* Testmonials */
+
+    .testmonials{
+        padding-top: 20vh;
+        background: #1B4962;
+        background: url('./../assets/bgn-quotes.jpg');
+        background-size: 100% 100% ;
+    }
+
+    /* Request a callback */
+    .request-cb{
+        margin: 0;
+        padding: 0;
+    }
+    .request-cb{
+        padding:10vh 0 ;   
+    }
+
+    .request-cb .data{
+        padding: 10vh 2% 5vh 2%;
+    }
+    
+    .request-cb .rcb-item{
+        font-size: .9em;
+    }
+
+    /* BGN Seearching */
+
+    .bgn-searching{
+        padding: 5vh 5%;
+    }
+
+    .bgn-searching .data{
+        background: url('./../assets/bgn-searching.jpg');
+        background: cover;
+        padding: 15vh 10%;
+
+    }
+ 
+    .bgn-searching .data h5{
+        font-size: .7em;
+    }
+
+    /* News */
+    .news{
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .news .row{
+        padding: 5vh 5%;
+    }
+
+    .news .blog{
+        padding: 0;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px #0000005a;
+        transition: .5s all;
+
+    }
+    
+    .news .blogdata{
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10vh 5% 3vh 5%;
+        background: linear-gradient(rgba(0, 0, 0, 0),#000);
+    }
+
+    .news .blog:hover{
+        transition: .5s all;
+        box-shadow: 5px 5px 15px #000000b6;
+    }
+
+    /* Map */
+    
+    .map{
+        margin-bottom: 20vh;
+    }
+    .map .data{
+        padding: 20px 5%;
+        margin-top: -35vh;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.455);
+    }
+
+    /* footer */
+
+    .footer{
+        background: linear-gradient(90deg,#215A7A,#143749);
+        padding: 100px 5%;
+    }
+
+    .footer .data p{
+        font-size: .8em;
+    }
+
+
+    .footer-2{
+        padding: 10vh 3% 10px 3%;   
+    }
+    .footer-2 a{
+        color: white;
+        text-decoration: none;
+        line-height: 2em;
+    }
+
+    #ServiceModal{
+        z-index: 9999;
+    }
+
+    /* EDP */
+    .edp{
+        /* background: url('./../assets/8-png-1.png'); */
+        background-size:cover;
+    }
+    
+    .edp .item{
+        color: #fff;
+        cursor: pointer;
+        padding: 30px 10px;
+        border-radius: 5px;
+        background: #19435A;   
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+    }
+
+    /* LookingFC */
+    .lookingFC{
+        padding: 25vh 5%;
+        background: url('../assets/blog-post-14-2.jpg') center;
+        background: 100% auto;
+    }
+
+    .lookingFC .btn{
+        padding: 10px 20px;
+    }
+
+    /* Blogs */
+
+    .blog-head{
+        padding: 20vh 5% 30vh 5%;
+        background: url('./../assets/backgroun-cs.png') center;
+        background: cover;
+    }
+
+    .blogs{
+        padding: 0vh 5% 20vh 5%;
+        margin-top: -20vh;
+    }
+
+    .blogs .blog{
+        padding: 0;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px #0000002b;
+        transition: .5s all;
+
+    }
+    
+    .blogs .blogdata{
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10vh 5% 3vh 5%;
+        background: linear-gradient(rgba(0, 0, 0, 0),#000);
+    }
+
+    .blogs .blog:hover{
+        transition: .5s all;
+        box-shadow: 5px 5px 15px #000000b6;
+    }
+
+    .blogs .blog h5, .blogs .blog p,  .blogs .blog h3{
+        font-size: 1em;
+    }
+    .blogs .dtime{
+        padding: 10px 15px;
+    }
+    .blogs .blog h2 {
+        font-size: 1.6em;
+    }
+    @media screen and (max-width: 990px) {
+    
+        .head-band{
+        display: none;
+    }
+    
+    .mob-only{
+        display: inline-block !important;
+    }
+    
+    .dk-only{
+        display: none !important;
+    }
+
+    .sidenav .head-band span{
+        font-size: .9em;
+    }
+
+    /* Global classes */
+
+    .btn-E94D65{
+        padding: 15px 15px;
+        font-size: .8em;
+    }
+    .btn-1B4962{
+        padding: 15px 15px;
+        font-size: .8em;
+    }
+    
+    .data{
+        padding: 20px;
+    }
+    
+    .carousel h5{
+        font-size: .8em;
+    }
+
+    .data hr{
+        border: 3px solid #e94d65;
+    }
+
+    /* Globa Classes end here */
+
+    .navbar .mob-only{
+        width: 30%;
+        font-size: 2em;
+    }
+
+    .carousel img{
+        min-height: 90vh;
+    }
+
+    /* Consultancy services */
+
+    .consultancy-services .data h5{
+        font-size: .9em;
+    }
+
+
+    /* Testmonials */
+
+    .testmonials h5{
+        font-size: .9em;
+    }
+    
+    /* bgn  */
+
+    .bgn-searching .data h3{
+        font-size: 3em;
+    }
+    
+    .bgn-searching .data .btn{
+        padding: 5px 20px;
+    }
+    
+    /* Footer */
+
+    .footer .data h5{
+        font-size: .8em;
+    }
+      /* EDP */
+
+     .data p{
+        font-size: .8em;
+    }
+
+    .data h5{
+        font-size: .8em;
+    }
+
+    /* Blogs */
+    .blogs .blog h5, .blogs .blog p,  .blogs .blog h3{
+        font-size: .8em;
+    }
+    .blogs .dtime{
+        padding: 10px 15px;
+    }
+    .blogs .blog h2 {
+        font-size: 1em;
+    }
+}

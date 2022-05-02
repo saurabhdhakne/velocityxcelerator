@@ -1,0 +1,49 @@
+[19-Oct-2021 06:44:59 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 06:46:07 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 06:46:10 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 06:48:56 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 06:48:59 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 06:51:56 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:20:58 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:21:00 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:27:25 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:27:28 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:28:34 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'sg2plzcpnl489574.prod.sin2.secureserver.net' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:32:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:33:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:33:12 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:33:14 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:34:51 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:34:53 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:37:22 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:37:52 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'asalon'@'localhost' to database 'asalon' in /home/c2jrxsh0icoh/public_html/admin/check_con.php on line 9
+[19-Oct-2021 07:41:08 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/c2jrxsh0icoh/public_html/admin/logout.php on line 1
+[19-Oct-2021 07:41:08 UTC] PHP Warning:  A non-numeric value encountered in /home/c2jrxsh0icoh/public_html/admin/logout.php on line 2
+[19-Oct-2021 07:58:35 UTC] PHP Notice:  Undefined variable: lengths in /home/c2jrxsh0icoh/public_html/admin/blogUpdate.php on line 274
+[19-Oct-2021 15:21:40 UTC] PHP Notice:  Undefined index: fname in /home/c2jrxsh0icoh/public_html/admin/formSubmit.php on line 4
+[19-Oct-2021 15:21:40 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/formSubmit.php on line 5
+[19-Oct-2021 15:21:40 UTC] PHP Notice:  Undefined index: mobile in /home/c2jrxsh0icoh/public_html/admin/formSubmit.php on line 6
+[19-Oct-2021 15:21:40 UTC] PHP Notice:  Undefined index: msg in /home/c2jrxsh0icoh/public_html/admin/formSubmit.php on line 7
+[20-Oct-2021 09:05:00 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 5
+[20-Oct-2021 09:05:00 UTC] PHP Notice:  Undefined index: password in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 6
+[20-Oct-2021 09:05:26 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 5
+[20-Oct-2021 09:05:26 UTC] PHP Notice:  Undefined index: password in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 6
+[20-Oct-2021 09:06:22 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[20-Oct-2021 09:12:29 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 5
+[20-Oct-2021 09:12:29 UTC] PHP Notice:  Undefined index: password in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 6
+[20-Oct-2021 09:16:59 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[24-Nov-2021 04:06:40 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/c2jrxsh0icoh/public_html/admin/logout.php on line 1
+[24-Nov-2021 04:06:40 UTC] PHP Warning:  A non-numeric value encountered in /home/c2jrxsh0icoh/public_html/admin/logout.php on line 2
+[24-Nov-2021 04:16:56 UTC] PHP Notice:  Undefined variable: lengths in /home/c2jrxsh0icoh/public_html/admin/blogUpdate.php on line 274
+[24-Nov-2021 04:34:07 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[09-Jan-2022 15:51:47 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 5
+[09-Jan-2022 15:51:47 UTC] PHP Notice:  Undefined index: password in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 6
+[09-Jan-2022 16:24:57 UTC] PHP Notice:  Undefined variable: lengths in /home/c2jrxsh0icoh/public_html/admin/blogUpdate.php on line 274
+[09-Jan-2022 16:25:44 UTC] PHP Notice:  Undefined variable: lengths in /home/c2jrxsh0icoh/public_html/admin/blogUpdate.php on line 274
+[26-Feb-2022 07:34:20 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[26-Feb-2022 07:34:39 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[26-Feb-2022 07:35:57 UTC] PHP Notice:  Undefined index: email in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 5
+[26-Feb-2022 07:35:57 UTC] PHP Notice:  Undefined index: password in /home/c2jrxsh0icoh/public_html/admin/adminLogin.php on line 6
+[26-Feb-2022 07:36:13 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[26-Feb-2022 07:36:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
+[26-Feb-2022 07:58:13 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/c2jrxsh0icoh/public_html/admin/msg.php on line 222
