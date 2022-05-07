@@ -10,7 +10,7 @@ if (isset($_SESSION['username'])) {
     header('location:../index');
 }
 
-$sql = 'SELECT * FROM msg ORDER BY id DESC ';
+$sql = 'SELECT * FROM msgs ORDER BY id DESC ';
 
 $result = mysqli_query($conn, $sql);
 
@@ -55,6 +55,7 @@ $lengths = 0;
     .navbar-nav {
         width: 600px;
     }
+
   </style>
 </head>
 <body id="page-top">
@@ -110,6 +111,12 @@ $lengths = 0;
                   <span>Message</span>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="pagarbook" aria-expanded="true" aria-controls="collapseTwo">
+                  <i class="fab fa-blogger-b"></i>
+                  <span>Pagarbook</span>
+                </a>
+              </li>
     </ul>
     <div id="content-wrapper" class="d-flex flex-column">
 
@@ -156,9 +163,9 @@ $lengths = 0;
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                 <h1 class="h5 mb-0 text-gray-600"> 
-                    <b>For Support: </b>  <i class="fas fa-phone-square ml-4 fa-sm fa-fw mr-2 "></i>+91 7769955625
+                    <b>For Support: </b>  <i class="fas fa-phone-square ml-4 fa-sm fa-fw mr-2 "></i>+91  8899880880
                     <i class="fa fa-envelope mr-2 ml-4" aria-hidden="true"></i>
-                    sbdhakne309@gmail.com</i>
+                    contact@velocityxcelerator.com</i>
                 </h1>
             </div>
   
@@ -207,8 +214,8 @@ $lengths = 0;
                           <th scope="col">Name</th>
                           <th scope="col">Email</th>
                           <th scope="col">Mobile</th>
-                          <th scope="col">Msg</th>
                           <th scope="col">Delete</th>
+                          <th scope="col">Msg</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -228,8 +235,8 @@ $lengths = 0;
                                       <td> <?php echo $fname; ?> </td>
                                       <td> <?php echo $email; ?>  </td>
                                       <td> <?php echo $mobile; ?>  </td>
-                                      <td> <?php echo $msg; ?>  </td>
                                       <td> <input type="button" class="btn btn-outline-danger" value="Delete" onclick="window.location='msgDelete?id=<?php echo $id; ?> ' "> </td>
+                                      <td class="col-md-4" style="overflow:scroll"> <?php echo $msg; ?>  </td>
                                 </tr>
                               <?php
                           }

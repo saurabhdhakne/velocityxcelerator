@@ -51,7 +51,8 @@ if ($uploadOk == 0) {
     if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target_file)) {
         $sql = "INSERT INTO blog(`title`,`content`,`img`) VALUES ('$title','$content','$target_file')";
 
-        if (mysqli_query($conn, $sql)) {<?php
+        if (mysqli_query($conn, $sql)) {
+        
             // echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
             ?>
                     <html> <script> alert('Blog added Successfully!!!'); </script></html>

@@ -87,6 +87,10 @@ body{
 button:hover, a:hover{
    cursor: pointer;
 }
+
+.text-justify{
+    text-align: justify;
+}
 /* Global classes end here */
 
 .loader {
@@ -161,6 +165,7 @@ button:hover, a:hover{
 .navbar{
     box-shadow: 0 2px 15px rgba(0, 0, 0, .2);
     z-index: 9;
+    background: #ffffff;
 }
 
 .navbar-fix{
@@ -201,6 +206,49 @@ button:hover, a:hover{
 .about-me .data{
     position: absolute;
     margin-top: 10vh;
+}
+.about-me-data{
+    padding: 20vh 2%;    
+}
+
+/* Services */
+.services{
+    background: url('../assets/backgroun-cs.png') center;
+    background: cover;
+}
+
+.services .item{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+    background: #ffffff;
+}
+.services img:hover{
+    opacity: .8;
+    background: #E94D65;
+}
+.services .item:hover h3{
+    color: #E94D65;
+    transition: .5s all;
+}
+
+/* Programs */
+.programs{
+    background: url('../assets/backgroun-cs.png') center;
+    background: cover;
+}
+
+.programs .item{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+    background: #ffffff;
+}
+
+.programs img:hover{
+    opacity: .8;
+    background: #E94D65;
+}
+
+.programs .item:hover h3{
+    color: #E94D65;
+    transition: .5s all;
 }
 
 /* Our services */
@@ -378,12 +426,16 @@ button:hover, a:hover{
     /* Testmonials */
 
     .testmonials{
-        padding-top: 20vh;
+        padding-top: 20vh ;
+        padding-bottom: 10vh ;
         background: #1B4962;
         background: url('./../assets/bgn-quotes.jpg');
         background-size: 100% 100% ;
     }
 
+    .testmonials2 i{
+        font-size: 2em;
+    }
     /* Request a callback */
     .request-cb{
         margin: 0;
@@ -553,7 +605,12 @@ button:hover, a:hover{
     .blogs .blog h2 {
         font-size: 1.6em;
     }
-    @media screen and (max-width: 990px) {
+
+    .other-blogs .card-body:hover h5{
+        color: #E94D65;
+        cursor: pointer;
+    }
+@media screen and (max-width: 990px) {
     
         .head-band{
         display: none;
@@ -613,11 +670,14 @@ button:hover, a:hover{
 
 
     /* Testmonials */
-
+    
     .testmonials h5{
         font-size: .9em;
     }
     
+    .testmonials2 h1{
+        font-size: 1em;
+    }
     /* bgn  */
 
     .bgn-searching .data h3{
@@ -653,4 +713,5 @@ button:hover, a:hover{
     .blogs .blog h2 {
         font-size: 1em;
     }
+    
 }

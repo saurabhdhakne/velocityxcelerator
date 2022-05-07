@@ -1,9 +1,9 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//   setTimeout(() => {
-//     document.getElementById('loader').style =
-//       'height:0px; margin-top:50vh;'
-//   }, 3000)
-// })
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    document.getElementById('loader').style =
+      'height:0px; margin-top:50vh;'
+  }, 2000)
+})
 
 function openNav(){document.getElementById("mySidenav").style.width="80%";}
 function closeNav(){document.getElementById("mySidenav").style.width="0";}
@@ -18,9 +18,3 @@ $(function(){
     }
   });
 });
-
-function myFunction(str) {
-  var copyText = 'https://velocityxcelerator/blog?id='+str;
-  navigator.clipboard.writeText(copyText);
-  alert("Copied the text: " + copyText);
-}
